@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgb(104, 0, 165);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 29rem;
+    margin: 5rem auto;
+    padding: 3.6rem;
+    background: rgb(34, 34, 34);
+    border-radius: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 10px;
+    font-size: 2rem;
+}
+
+button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    background: rgb(99, 99, 99);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.6rem;
+}
+
+#button1,
+#button2,
+#button3 {
+    order: 1;
+}
+
+button[id="button+"] {
+    order: 2;
+}
+
+#button4,
+#button5,
+#button6 {
+    order: 3;
+}
+
+button[id="button-"] {
+    order: 4;
+}
+
+#button7,
+#button8,
+#button9 {
+    order: 5;
+}
+
+button[id="button*"] {
+    order: 6;
+}
+
+#button0 {
+    order: 7;
+}
+
+button[id="button/"] {
+    order: 8;
+}
+
+button[id="button("] {
+    order: 9;
+}
+
+button[id="button)"] {
+    order: 10;
+}
+
+button[id="buttonMath.log"] {
+    order: 11;
+    width: 72px;
+}

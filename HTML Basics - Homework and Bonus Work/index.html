@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>My First HTML Page</title>    
+    </head>
+    <body>
+        <p>This is some text that will appear on the web page.</p>
+    
+    <form>
+        <input type="hidden" name="subject" value="Class" />
+        <fieldset><legend>Academic Information</legend>
+        <label for="degree">Degree</label>
+        <select name="degree" id="degree">
+            <option value="BA">Bacheor of Art</option>
+            <option value="BS">Bacheor of Science</option>
+            <option value="MBA" selected="selected">Master of Business Administration</option>
+        </select>
+        <br />
+        <label for="studentid">Student ID:</label>
+        <input type="password" name="studentid" />
+        <br />
+        <label for="classes">Classes Attended</label>
+        <select multiple name="classes" id="classes">
+            <option value="1">Geography</option>
+            <option value="2">Mathematics</option>
+            <option value="3">English</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" />
+        <br />
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" />
+        <legend>Gender</legend> 
+        <input type="radio" name="gender" id="gm" value="m" />
+        <label for="gm">Male</label>
+        <input type="radio" name="gender" id="gf" value="f" />
+        <label for="gf">Female</label>
+        <br />
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+    </fieldset>
+    <p>
+        <textarea name="terms" cols="30" rows="4" readonly="readonly">TERMS AND CONDITIONS...</textarea>        
+    </p>
+    <p>
+        <input type="submit" name="submit" value="Send Form" />
+        <input type="reset" value="Clear Form" />
+    </p>
+    </form>
+
+    <iframe name="iframeGoogle" src="http://www.yahoo.com" frameborder="yes" width="600" height="400" scrolling="yes"
+    ></iframe>
+    
+    </body>
+</html>

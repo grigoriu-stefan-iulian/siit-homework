@@ -13,7 +13,14 @@ const createTable = () => {
       success(response) {
          console.log(response)
          response.forEach((element) => {
-            table.append(createRow(createCell(element.id), createCell(element.body), createCell(element.title), createCell(element.userId), createEditButtonInCell('Edit', () => editButton(element)), createDeleteButtonInCell('Delete', () => deleteButton())))
+            table.append(
+               createRow(
+                  createCell(element.id),
+                  createCell(element.body),
+                  createCell(element.title),
+                  createCell(element.userId),
+                  createEditButtonInCell('Edit', () => editButton(element)),
+                  createDeleteButtonInCell('Delete', () => deleteButton())))
          })
       },
       error() {
