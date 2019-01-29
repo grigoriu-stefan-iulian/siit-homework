@@ -1,0 +1,108 @@
+body {
+    background-color: #dfdfdf;
+    font-family: "Lucida Sans Unicodea", "Lucida Grande", sans-serif;
+}
+
+div#container {
+    width: 740px;
+    padding: 30px;
+    margin: 60px auto;
+    background-color: white;
+}
+
+.shadow {
+    box-shadow: 0px 0px 30px 5px #000000;
+}
+
+header {
+    text-align: center;
+}
+    header .tagline {
+        font-size: 15px;
+        margin: 10px 0 0 0;
+    }
+    header .title {
+        font-size: 72px;
+        margin: 0px;
+    }
+
+ul#nav {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    list-style: none;
+    text-align: center;
+    margin: 30px 0 19px 0;
+    height: 40px;
+    padding: 0px;
+}
+
+    ul#nav li {
+        display: block;
+        float: left;
+    }
+
+    ul#nav a{
+        text-decoration: none;
+        padding: 11px 10px;
+        display: block;
+        width: 128px;
+        color: black;
+    }
+
+    ul#nav a:hover {
+        background-color: black;
+        color: white;
+    }
+
+section#content h1 {
+    font-size: 28px;
+    color: #434343;
+    font-weight: normal;
+}
+
+section#content h2 {
+    font-size: 22px;
+    color: #434343;
+    font-weight: normal;
+}
+
+section#section h3 {
+    font-size: 18px;
+    color: #434343;
+    font-weight: normal;
+}
+
+section#content p,
+section#content a,
+section#content td {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+section#content a {
+    color: green;
+    text-decoration: none;
+}
+
+section#content a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.floatright {
+    float: right;
+}
+
+footer {
+    background-color: #bee08e;
+    padding: 30px 15px;
+    margin-top: 55px;
+}
+    footer p {
+        font-size: 15px;
+        color: #4d711a;
+    }
+
+    footer img {
+        border: none;
+    }
