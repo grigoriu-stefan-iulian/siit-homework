@@ -1,0 +1,118 @@
+
+
+#five {
+    color: #f6801c;
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+h1 {
+    text-transform: uppercase;
+    background-color: #333333;
+    color: #fefefe;
+    margin: 0;
+    padding: 35px 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #666666;
+}
+
+nav a {
+    border-right: 2px solid #333333;
+    padding: 20px;
+    background-color: #666666;
+    text-decoration: none;
+    color: #e6e6e6;
+    font-size: 1.2em;
+}
+
+div {
+    display: flex;
+}
+
+section {
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.post {
+    display: flex;
+    padding: 40px 20px;
+}
+
+.post img {
+    width: 160px;
+    height: 160px;
+}
+
+.post div {
+    padding: 0 30px 40px 15px;
+    flex-direction: column;
+}
+
+.post div h2 {
+    margin: 0;
+}
+
+.post a {
+    color: #f6801c;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+hr {
+    width: 95%;
+}
+
+#last-hr {
+    margin-bottom: 70px;
+}
+
+aside {
+    box-sizing: border-box;
+    width: 30%;
+    background-color: #e5e5e5;
+    padding: 40px 20px;
+}
+
+aside h3 {
+    margin-top: 0;
+}
+
+aside a {
+    display: block;
+    color: #f6801c;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+ul {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+aside hr {
+    width: 100%;
+}
+
+footer {
+    background-color: #333333;
+    margin: 0;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: #d2d2d2;
+}
+
+p span {
+    color: #f6801c;
+}

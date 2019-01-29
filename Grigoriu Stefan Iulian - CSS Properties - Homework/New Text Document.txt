@@ -1,0 +1,6 @@
+2 div
+1) calc 100%-20px
+	input fara border, outline etc
+	overflow hidden
+2) search icon font awesome
+
