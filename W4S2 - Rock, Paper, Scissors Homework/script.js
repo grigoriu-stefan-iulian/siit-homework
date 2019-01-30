@@ -7,38 +7,38 @@ function play() {
         return array[x];
     }
 
-    var computerChoice = choise();    
-    console.log('Computer: ' + '"' + computerChoice + '"');
+    var computerChoice = choise();
+    document.getElementById('pick-one').innerHTML = computerChoice;
 
     var userChoice = choise();
-    console.log('You: ' + '"' + userChoice + '"');
+    document.getElementById('pick-two').innerHTML = userChoice;
 
     if (computerChoice == userChoice) {
-        console.log('It is a tie!');
+document.getElementById('winner').innerHTML = 'Noone!'
     } else {
         if (userChoice === 'Rock') {
             if (computerChoice === 'Scissors') {
-                console.log('You won!');
+                document.getElementById('winner').innerHTML = 'User Two'
             } else {
-                console.log('You lost!');
+                document.getElementById('winner').innerHTML = 'User One'
             }
         }
 
         if (userChoice === 'Paper') {
             if (computerChoice === 'Rock') {
-                console.log('You won!');
+                document.getElementById('winner').innerHTML = 'User Two'
             } else {
-                console.log('You lost!');
+                document.getElementById('winner').innerHTML = 'User One'
             }
         }
 
         if (userChoice === 'Scissors') {
             if (computerChoice === 'Rock') {
-                console.log('You lost!');
+                document.getElementById('winner').innerHTML = 'User One'
+
             } else {
-                console.log('You won!');
+                document.getElementById('winner').innerHTML = 'User Two'
             }
         }
     }
 }
-play();

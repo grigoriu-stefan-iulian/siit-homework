@@ -4,7 +4,6 @@ const myDiv = $('<div id="myDiv"></div>')
 
 myBody.append(myDiv)
 
-myDiv.append('<h1>To Do</h1>')
 const labelName = $('<label>Name</label>')
 const inputName = $('<input placeholder="Insert To Do">')
 const labelDescription = $('<label>Description</label>')

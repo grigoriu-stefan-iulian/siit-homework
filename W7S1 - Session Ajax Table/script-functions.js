@@ -84,9 +84,8 @@ const createForm = (element) => {
     const saveButton = $('<button>Save</button>')
 
     saveButton.on('click', function (e) {
-       e.preventDefault()
-      // const mything = 
-        $(this).closest('tr').closest('td').html('works')
+        e.preventDefault()
+        element.userId.value = 'dd'
     })
 
     form.append(saveButton)
@@ -109,3 +108,12 @@ const deleteButton = () => {
     //console.log(myId)
 
 }
+
+const a = {
+    name: 'stefan'
+}
+
+const myFunction = (obj) => obj.name = 'Iulian'
+
+myFunction(a)
+console.log(a)
