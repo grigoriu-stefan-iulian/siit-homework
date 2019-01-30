@@ -1,23 +1,10 @@
-
+@import './normalize.css';
+@import './base.css';
 
 #five {
     color: #f6801c;
     font-size: 2em;
     vertical-align: middle;
-}
-
-h1 {
-    text-transform: uppercase;
-    background-color: #333333;
-    color: #fefefe;
-    margin: 0;
-    padding: 35px 20px;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    background-color: #666666;
 }
 
 nav a {
@@ -27,15 +14,6 @@ nav a {
     text-decoration: none;
     color: #e6e6e6;
     font-size: 1.2em;
-}
-
-div {
-    display: flex;
-}
-
-section {
-    width: 70%;
-    box-sizing: border-box;
 }
 
 .post {
@@ -63,19 +41,8 @@ section {
     font-weight: 600;
 }
 
-hr {
-    width: 95%;
-}
-
 #last-hr {
     margin-bottom: 70px;
-}
-
-aside {
-    box-sizing: border-box;
-    width: 30%;
-    background-color: #e5e5e5;
-    padding: 40px 20px;
 }
 
 aside h3 {
@@ -89,23 +56,12 @@ aside a {
     padding: 5px 0;
 }
 
-ul {
-    padding-left: 10px;
-    padding-bottom: 20px;
-}
-
 ul li {
     list-style-type: none;
 }
 
 aside hr {
     width: 100%;
-}
-
-footer {
-    background-color: #333333;
-    margin: 0;
-    padding: 10px;
 }
 
 footer p {

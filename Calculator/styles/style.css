@@ -1,18 +1,5 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    background: rgb(104, 0, 165);
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.6rem;
-}
+@import './normalize.css';
+@import './base.css';
 
 .container {
     display: flex;
@@ -25,33 +12,13 @@ body {
     border-radius: 10px;
 }
 
-input {
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 7px;
-    padding: 7px 10px;
-    font-size: 2rem;
-}
-
-button {
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
-    margin: 3px;
-    background: rgb(99, 99, 99);
-    color: white;
-    border: none;
-    border-radius: 10px;
-    font-size: 1.6rem;
-}
-
 #button1,
 #button2,
 #button3 {
     order: 1;
 }
 
-button[id="button+"] {
+button[id="button/"] {
     order: 2;
 }
 
@@ -61,7 +28,7 @@ button[id="button+"] {
     order: 3;
 }
 
-button[id="button-"] {
+button[id="button+"] {
     order: 4;
 }
 
@@ -71,27 +38,34 @@ button[id="button-"] {
     order: 5;
 }
 
-button[id="button*"] {
+button[id="button-"] {
     order: 6;
 }
 
-#button0 {
+button[id="button("] {
     order: 7;
 }
 
-button[id="button/"] {
+#button0 {
     order: 8;
 }
 
-button[id="button("] {
+button[id="button)"] {
     order: 9;
 }
 
-button[id="button)"] {
+button[id="button*"] {
     order: 10;
 }
 
-button[id="buttonMath.log"] {
+button[id="buttonMath.log"],
+button[id="buttonMath.sqrt"],
+button[id="button."] {
     order: 11;
-    width: 72px;
+}
+
+button[id="buttonMath.log"],
+button[id="buttonMath.sqrt"] {
+    width: 64px;
+    font-size: 1rem;
 }

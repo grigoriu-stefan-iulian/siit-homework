@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgb(104, 0, 165);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+}
+
+input {
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 10px;
+    font-size: 2rem;
+}
+
+button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    background: rgb(99, 99, 99);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.6rem;
+}

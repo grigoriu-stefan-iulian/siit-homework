@@ -24,8 +24,5 @@ roRo.addEventListener('click', () => {
 
 selectLanguage()
 
-// ++ use geolocation api and use that to get 
-// the city and find weather information for the city
-
-
-// super() apeleaza constructorul din clasa de baza
+// allCookies = document.cookie;
+//document.cookie = newCookie; (id: 'value')

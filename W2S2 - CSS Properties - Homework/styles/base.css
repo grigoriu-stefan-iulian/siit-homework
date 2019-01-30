@@ -1,0 +1,44 @@
+h1 {
+    text-transform: uppercase;
+    background-color: #333333;
+    color: #fefefe;
+    margin: 0;
+    padding: 35px 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #666666;
+}
+
+div {
+    display: flex;
+}
+
+hr {
+    width: 95%;
+}
+
+aside {
+    box-sizing: border-box;
+    width: 30%;
+    background-color: #e5e5e5;
+    padding: 40px 20px;
+}
+
+ul {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+section {
+    width: 70%;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #333333;
+    margin: 0;
+    padding: 10px;
+}
