@@ -1,0 +1,8 @@
+#myDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 70px;
+}
