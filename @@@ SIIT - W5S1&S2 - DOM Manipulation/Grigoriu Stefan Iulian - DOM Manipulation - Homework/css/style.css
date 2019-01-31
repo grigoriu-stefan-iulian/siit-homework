@@ -1,0 +1,72 @@
+#myForm {
+    position: relative;
+    border: 1px solid;
+    padding-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    width: 630px
+}
+
+.input-names {
+    border: 1px solid black;
+    width: 310px;
+}
+
+.gender-select {
+    margin-left: 50px;
+}
+
+.form-image {
+    float: right;
+    position: absolute;
+    top: 30px;
+    padding-left: 35px;
+}
+
+#submit-button {
+    cursor: pointer;
+    background-color: #00c3e5;
+    margin-top: 30px;
+    margin-left: 243px;
+    padding: 7px 12px;
+    border-radius: 5px;
+    border: 1px solid #00588c;
+    color: white;
+}
+
+.valid-input {
+    border: 2px solid green;
+    width: 310px;
+}
+
+.invalid-input {
+    border: 2px solid red;
+    width: 310px;
+}
+
+.fa-check-circle {
+    color: green;
+    padding-right: 15px;
+    font-size: 21px;
+}
+
+.fa-times {
+    position: absolute;
+    right: 10px;
+    color: green;
+    font-size: 21px;
+}
+
+.confirmation-para {
+    position: relative;
+    width: 706px;
+    background-color: #b9ff9b;
+    padding: 5px 10px;
+    color: green;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.hide-para {
+    display: none;
+}
