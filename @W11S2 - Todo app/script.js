@@ -43,9 +43,15 @@ class StatusSection extends BaseElement {
         this.element.style.width = 20;
         this.element.style.display = 'inline-block';
         if (this.status) {
-            this.element.innerText = 'X';
+            this.element.removeAttribute('class')
+            this.element.classList.add('fas')
+            this.element.classList.add('fa-times')
+
         } else {
-            this.element.innerText = 'V';
+            this.element.removeAttribute('class')
+            this.element.classList.add('fas')
+            this.element.classList.add('fa-check')
+
         }
         this.element.onclick = (e) => {
             console.log(e)
@@ -122,7 +128,7 @@ class ListContainer extends BaseElement {
         this.render()
     }
     storeTodos() {
-        var storedTodos = []
+        let storedTodos = []
         this.todos.forEach((todo) => {
             const toDo = {
                 name: todo.name,
