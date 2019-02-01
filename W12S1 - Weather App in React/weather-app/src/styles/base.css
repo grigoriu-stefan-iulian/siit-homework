@@ -1,0 +1,10 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgb(90, 90, 90);
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+}
