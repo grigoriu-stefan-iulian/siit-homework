@@ -8,7 +8,7 @@ const selectLanguage = () => {
     }
 }
 
-if (localStorage.length === 0) {
+if (localStorage.getItem('language') === null) {
     localStorage.setItem('language', 'en-US')
 }
 
