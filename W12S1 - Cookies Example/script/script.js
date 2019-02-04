@@ -25,4 +25,4 @@ roRo.addEventListener('click', () => {
 selectLanguage()
 
 // allCookies = document.cookie;
-//document.cookie = newCookie; (id: 'value')
+//document.cookie = newCookie; ('id': 'value')
